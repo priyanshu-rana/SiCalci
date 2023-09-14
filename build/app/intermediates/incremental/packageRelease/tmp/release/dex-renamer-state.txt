@@ -1,0 +1,4 @@
+#Thu Sep 14 20:53:33 IST 2023
+base.0=/home/priyanshu/studio_projects/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

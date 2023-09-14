@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.studio_projects"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml
+10
+11    <application
+12        android:name="android.app.Application"
+12-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:4:9-42
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.6.0] /home/priyanshu/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+14        android:icon="@mipmap/launcher_icon"
+14-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:5:9-45
+15        android:label="SICalci" >
+15-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:6:9-32
+16        <activity
+16-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:7:9-25:20
+17            android:name="com.example.studio_projects.MainActivity"
+17-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:8:13-41
+18            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+18-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:9:13-163
+19            android:exported="true"
+19-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:10:13-36
+20            android:hardwareAccelerated="true"
+20-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:11:13-47
+21            android:launchMode="singleTop"
+21-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:12:13-43
+22            android:windowSoftInputMode="adjustResize" >
+22-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:13:13-55
+23
+24            <!--
+25                 Specifies an Android theme to apply to this Activity as soon as
+26                 the Android process has started. This theme is visible to the user
+27                 while the Flutter UI initializes. After that, this theme continues
+28                 to determine the Window background behind the Flutter UI.
+29            -->
+30            <meta-data
+30-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:18:13-20:57
+31                android:name="io.flutter.embedding.android.NormalTheme"
+31-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:19:17-72
+32                android:resource="@style/NormalTheme" />
+32-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:20:17-54
+33
+34            <intent-filter>
+34-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:21:13-24:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:22:17-69
+35-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:22:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:23:17-77
+37-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:23:27-74
+38            </intent-filter>
+39        </activity>
+40        <!--
+41             Don't delete the meta-data below.
+42             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+43        -->
+44        <meta-data
+44-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:28:9-30:33
+45            android:name="flutterEmbedding"
+45-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:29:13-44
+46            android:value="2" />
+46-->/home/priyanshu/studio_projects/android/app/src/main/AndroidManifest.xml:30:13-30
+47
+48        <uses-library
+48-->[androidx.window:window:1.0.0-beta04] /home/priyanshu/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+49            android:name="androidx.window.extensions"
+49-->[androidx.window:window:1.0.0-beta04] /home/priyanshu/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+50            android:required="false" />
+50-->[androidx.window:window:1.0.0-beta04] /home/priyanshu/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+51        <uses-library
+51-->[androidx.window:window:1.0.0-beta04] /home/priyanshu/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+52            android:name="androidx.window.sidecar"
+52-->[androidx.window:window:1.0.0-beta04] /home/priyanshu/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+53            android:required="false" />
+53-->[androidx.window:window:1.0.0-beta04] /home/priyanshu/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+54    </application>
+55
+56</manifest>
