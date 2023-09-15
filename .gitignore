@@ -1,0 +1,38 @@
+.dart_tool/
+.packages
+.pub/
+build/
+build_runner/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-status
+.pub-cache/
+.dart_dev/
+.flutter-plugins/  # Ignore the generated Flutter plugins directory
+*.iml              # IntelliJ IDEA project files
+.vscode/           # Visual Studio Code settings
+.idea/             # Android Studio / IntelliJ IDEA project files
+/.metadata
+/bin/
+/captures/
+/dev/
+/test/
+/doc/api/
+/lib/analysis_options.2.10.0.yaml
+/node/
+/ios/Pods/
+/ios/.symlinks/
+/ios/Podfile.lock
+ios/.generated_plugins/
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Generated.xcconfig
+*.lock
+*.log
+pubspec.lock
+pubspec.yaml
+*.iml
+.vscode/
+.idea/
+*.swp
+.DS_Store
